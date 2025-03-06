@@ -1,0 +1,243 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 100%;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.p {
+    background-color: antiquewhite;
+    height: 50%;
+    width: 40%; 
+    padding: 10px;
+}
+
+.pp {
+    background-color: rgb(255, 145, 0);
+    height: 50%;
+    width: 40%; 
+    padding: 10px;
+}
+
+.ppp {
+    background-color: rgb(255, 60, 0);
+    height: 50%;
+    width: 40%; 
+    padding: 10px;
+}
+
+.pppp {
+    background-color: rgb(0, 204, 255);
+    height: 50%;
+    width: 40%; 
+    padding: 10px;
+}
+
+.p li {
+    background-color: rgb(42, 165, 159);
+    line-height: 2em;
+    margin-top: 10px; 
+    border-radius: 3em;
+    list-style-type: circle;
+    list-style-position: inside ;
+}
+
+.pp li {
+    background-color: rgb(42, 165, 159);
+    line-height: 2em;
+    margin-top: 10px; 
+    border-radius: 3em;
+    list-style-type: circle;
+    list-style-position: inside ;
+}
+
+.ppp li {
+    background-color: rgb(42, 165, 159);
+    line-height: 2em;
+    margin-top: 10px; 
+    border-radius: 3em;
+    list-style-position: inside ;
+}
+
+.pppp li {
+    background-color: rgb(42, 165, 159);
+    line-height: 2em;
+    margin-top: 10px; 
+    border-radius: 3em;
+    list-style-position: inside ;
+}
+
+.p li:hover{
+    background-color: rgb(92, 47, 255);
+    color: white;
+    width: 70%;
+    height: 70px;
+    background: linear-gradient( to left, rgb(78, 141, 78), rgb(255, 0, 242));  
+}
+
+
+.pp li:hover{
+    background-color: rgb(92, 47, 255);
+    color: white;
+    width: 70%;
+    height: 70px;
+    background: linear-gradient( to left, rgb(60, 115, 216), rgb(67, 67, 105));  
+}
+
+.ppp li:hover{
+    background-color: rgb(92, 47, 255);
+    color: white;
+    width: 70%;
+    height: 70px;
+    background: linear-gradient( to left, rgb(143, 108, 108), rgb(46, 46, 75));  
+}
+
+.pppp li:hover{
+    background-color: rgb(92, 47, 255);
+    color: white;
+    width: 70%;
+    height: 70px;
+    background: linear-gradient( to left, rgb(201, 127, 79), rgb(255, 0, 21));  
+}
+
+.xyp{
+    position: sticky;
+    top: 0;
+}
+
+.xyp ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: floralwhite;
+    font-size: 20px;
+    width: 100%;
+    border: 2px solid gold;
+    text-align: center;
+    overflow: hidden;
+}
+
+.xyp a{
+    display: block;
+    text-decoration: none;
+    color: turquoise;
+    padding: 8px 16px;
+    float: left;
+}
+
+.xyp a:hover{
+    background-color: paleturquoise;
+    color: olive;
+}
+
+.uwu{
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+    background-color: azure;
+}
+
+.button{
+    width: 300px;
+    height: 70px;
+    background-color: rgb(47, 196, 255);
+    color: aliceblue;
+    padding: 15px 30px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 20px 20px 16px black;
+    cursor: wait;
+}
+
+.button:hover{
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 20px 20px 16px black;
+}
+
+.button:active{
+    background-color: black;
+    color: aliceblue;
+}
+
+.search{
+    width: 65%;
+}
+
+.button{
+    width: 35%;
+    background-color: cornflowerblue;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: mediumspringgreen;
+    color: white;
+}
+
+.img_button{
+    height: 2em;
+    position: relative;
+}
+
+.img_button:hover{
+    cursor: pointer;
+}
+
+form{
+    width: 65%;
+    float: right;
+    display: flex;
+}
+
+input{
+    padding: 10px 20px;
+    border: 1px;
+    font-size: 20px;
+}
